@@ -58,6 +58,6 @@ while True:
 num1 = float(input("请输入第一个数字："))
 num2 = float(input("请输入第二个数字："))
 
-result = num1 * num2
+result = num1 / num2
 
-print("乘法结果：", result)
+print("除法结果：", result)
