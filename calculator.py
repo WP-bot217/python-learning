@@ -60,4 +60,16 @@ num2 = float(input("请输入第二个数字："))
 
 result = num1 / num2
 
-print("除法结果：", result)
+# 乘法运算
+result = num1 * num2
+print("乘法结果：", result)
+
+# 除法运算
+num1 = float(input("请输入被除数："))
+num2 = float(input("请输入除数："))
+
+if num2 == 0:
+    print("除数不能为零")
+else:
+    result = num1 / num2
+    print("除法结果：", result)
