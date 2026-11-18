@@ -1,4 +1,5 @@
 #加法函数
+print("这是我的第一个 Git 项目")
 def add(a, b):
     return a + b
 
