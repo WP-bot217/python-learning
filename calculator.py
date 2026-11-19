@@ -73,3 +73,10 @@ if num2 == 0:
 else:
     result = num1 / num2
     print("除法结果：", result)
+
+# 平方运算
+num = float(input("请输入一个数字："))
+
+result = num ** 2
+
+print("平方结果：", result)
